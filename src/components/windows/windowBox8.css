@@ -1,0 +1,27 @@
+.windowBox8{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 20px;
+    padding: 50px 180px;
+    background-color: black;
+    
+}
+.imgDiv{
+    background-color: #E6E6FA;
+    margin: auto;
+    height: 90%;
+    position: relative;
+    
+}
+
+.imgDiv img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 1;
+}
+.imgDiv button{
+    position: absolute;
+    
+}

@@ -1,0 +1,43 @@
+*{
+  box-sizing: border-box;
+}
+
+.sliding-window {
+    display: flex;
+    align-items: center;
+    z-index: -1;
+    /* border:solid red; */
+  }
+  
+  .slider-container {
+    width: 100%;  /* Set desired width */
+    overflow: hidden;
+    margin-right:-10% ;
+    /* border: 1px solid #ddd; */
+    /* z-index: -1; */
+    /* border:solid red */
+  }
+  
+  .slider {
+    display: flex;
+    width: 100%;
+    transition: transform 0.5s ease-in-out;
+    z-index: -1;
+    /* border:solid red */
+  }
+  
+  .slide {
+    width: 100%;  /* Match container width */
+    flex-shrink: 0;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border:solid red */
+  }
+
+  .imgSlider{
+    width: 60%; 
+    /* border:solid red */
+  }
+  
