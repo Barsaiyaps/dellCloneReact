@@ -17,7 +17,7 @@ const ProductForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch("", {
+      const response = await fetch("https://dellcloncebackend-1.onrender.com/dell/add-product", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

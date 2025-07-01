@@ -6,7 +6,7 @@ function Product(){
 const [products, setProducts] = useState([]);
 
 useEffect(() => {
-    fetch("")
+    fetch("https://dellcloncebackend-1.onrender.com/dell/get-product")
     .then(res => res.json())
     .then(json => setProducts(json))
 }, []);
