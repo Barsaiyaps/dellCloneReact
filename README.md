@@ -6,7 +6,7 @@ A full-stack Dell clone built with the **MERN Stack** (MongoDB, Express, React, 
 
 ##  Live Demo
 
-- **Frontend (Vercel)**: [Dell Clone Frontend](https://dell-clone-react-9n5c.vercel.app/product)
+- **Frontend (Vercel)**: [Dell Clone Frontend](https://dell-clone-react-9n5c.vercel.app)
 - **Backend (Render)**:
   - **Add Product**: `https://dellcloncebackend-1.onrender.com/dell/add-product`
   - **Get Products**: `https://dellcloncebackend-1.onrender.com/dell/get-product`
@@ -45,7 +45,7 @@ A full-stack Dell clone built with the **MERN Stack** (MongoDB, Express, React, 
 {
   "title": "Dell XPS 15",
   "price": 1499,
-  "desciption":"Powerfull computer"
+  "desciption":"Powerfull computer",
   "image": "https://example.com/xps15.jpg",
   "description": "High-performance laptop for professionals."
 }
