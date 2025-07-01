@@ -17,7 +17,7 @@ function AllRoutes(){
         <Route path="/language" element={<Language/>}/>
         <Route path="/product" element={<Product/>}/>
         <Route path="/ai" element={<AIPage/>} />
-        <Route path="/add-product" element={<ProductForm/>} />
+        <Route path="/addProduct" element={<ProductForm/>} />
 
     </Routes>
  )
